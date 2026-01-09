@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Interactivo de Anatomía</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-brain"></i> Estudio Interactivo de Anatomía</h1>
+            <div class="stats">
+                <span id="progress">Pregunta: 0/0</span>
+                <span id="score">Puntuación: 0%</span>
+            </div>
+        </header>
+
+        <main>
+            <!-- Pantalla de Inicio -->
+            <div id="start-screen" class="screen active">
+                <div class="welcome-card">
+                    <h2><i class="fas fa-book-medical"></i> Bienvenido</h2>
+                    <p>Estudia anatomía humana de forma interactiva mediante preguntas sobre imágenes médicas.</p>
+                    
+                    <div class="settings">
+                        <div class="setting">
+                            <label for="num-questions">
+                                <i class="fas fa-question-circle"></i> Número de preguntas:
+                            </label>
+                            <select id="num-questions">
+                                <option value="5">5 preguntas</option>
+                                <option value="10">10 preguntas</option>
+                                <option value="20" selected>20 preguntas</option>
+                                <option value="30">30 preguntas</option>
+                            </select>
+                        </div>
+                        
+                        <div class="setting">
+                            <label for="quiz-mode">
+                                <i class="fas fa-gamepad"></i> Modo de estudio:
+                            </label>
+                            <select id="quiz-mode">
+                                <option value="mixed" selected>Mezclado</option>
+                                <option value="system">Por sistemas</option>
+                                <option value="region">Por regiones</option>
+                            </select>
+                        </div>
+                        
+                        <div class="setting">
+                            <label>
+                                <i class="fas fa-history"></i> Progreso guardado:
+                            </label>
+                            <button id="clear-storage" class="btn-secondary">
+                                <i class="fas fa-trash-alt"></i> Limpiar
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <button id="start-btn" class="btn-primary">
+                        <i class="fas fa-play"></i> Iniciar Quiz
+                    </button>
+                    
+                    <div class="quick-stats">
+                        <div class="stat">
+                            <i class="fas fa-images"></i>
+                            <span id="total-images">0 imágenes</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-tags"></i>
+                            <span id="total-parts">0 partes</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-trophy"></i>
+                            <span id="best-score">Mejor: 0%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pantalla del Quiz -->
+            <div id="quiz-screen" class="screen">
+                <div class="quiz-container">
+                    <!-- Panel izquierdo: Imagen -->
+                    <div class="image-panel">
+                        <div class="image-container">
+                            <img id="anatomy-image" src="" alt="Imagen de anatomía">
+                            <canvas id="highlight-canvas"></canvas>
+                        </div>
+                        <div class="image-info">
+                            <span id="image-name"></span>
+                            <span id="hint" class="hint">
+                                <i class="fas fa-lightbulb"></i> Pista: <span id="hint-text"></span>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel derecho: Preguntas y controles -->
+                    <div class="question-panel">
+                        <div class="question-header">
+                            <h3 id="question-text">¿Qué parte anatómica está señalada?</h3>
+                            <div class="timer">
+                                <i class="fas fa-clock"></i>
+                                <span id="timer">--:--</span>
+                            </div>
+                        </div>
+                        
+                        <div class="answer-form">
+                            <div class="input-group">
+                                <input type="text" id="answer-input" 
+                                       placeholder="Escribe el nombre de la parte..." 
+                                       autocomplete="off"
+                                       autocapitalize="off">
+                                <button id="submit-btn" class="btn-primary">
+                                    <i class="fas fa-check"></i> Verificar
+                                </button>
+                            </div>
+                            
+                            <div class="feedback" id="feedback">
+                                <div class="feedback-content">
+                                    <i class="fas fa-comment-medical"></i>
+                                    <span id="feedback-text"></span>
+                                </div>
+                                <div class="suggestions" id="suggestions"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="navigation">
+                            <button id="skip-btn" class="btn-secondary">
+                                <i class="fas fa-forward"></i> Saltar
+                            </button>
+                            <div class="nav-buttons">
+                                <button id="prev-btn" class="btn-secondary" disabled>
+                                    <i class="fas fa-arrow-left"></i> Anterior
+                                </button>
+                                <button id="next-btn" class="btn-primary">
+                                    Siguiente <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pantalla de Resumen -->
+            <div id="summary-screen" class="screen">
+                <div class="summary-card">
+                    <h2><i class="fas fa-chart-bar"></i> Resultados del Quiz</h2>
+                    
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <svg width="160" height="160">
+                                <circle cx="80" cy="80" r="70" stroke="#e0e0e0" stroke-width="12" fill="none"/>
+                                <circle id="score-circle" cx="80" cy="80" r="70" stroke="#4CAF50" 
+                                        stroke-width="12" fill="none" stroke-dasharray="439.82" 
+                                        stroke-dashoffset="439.82" transform="rotate(-90 80 80)"/>
+                                <text x="80" y="85" text-anchor="middle" font-size="28" font-weight="bold">
+                                    <tspan id="final-score">0</tspan>%
+                                </text>
+                                <text x="80" y="110" text-anchor="middle" font-size="16" fill="#666">
+                                    Nota
+                                </text>
+                            </svg>
+                        </div>
+                        
+                        <div class="score-details">
+                            <h3>Estadísticas Detalladas</h3>
+                            <div class="stats-grid">
+                                <div class="stat-card correct">
+                                    <i class="fas fa-check-circle"></i>
+                                    <div class="stat-info">
+                                        <span class="stat-label">Respuestas Correctas</span>
+                                        <span class="stat-value" id="correct-count">0</span>
+                                    </div>
+                                </div>
+                                <div class="stat-card incorrect">
+                                    <i class="fas fa-times-circle"></i>
+                                    <div class="stat-info">
+                                        <span class="stat-label">Respuestas Incorrectas</span>
+                                        <span class="stat-value" id="incorrect-count">0</span>
+                                    </div>
+                                </div>
+                                <div class="stat-card skipped">
+                                    <i class="fas fa-forward"></i>
+                                    <div class="stat-info">
+                                        <span class="stat-label">Preguntas Saltadas</span>
+                                        <span class="stat-value" id="skipped-count">0</span>
+                                    </div>
+                                </div>
+                                <div class="stat-card time">
+                                    <i class="fas fa-clock"></i>
+                                    <div class="stat-info">
+                                        <span class="stat-label">Tiempo Total</span>
+                                        <span class="stat-value" id="total-time">0:00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="performance">
+                                <div class="performance-item">
+                                    <span>Porcentaje de Aciertos:</span>
+                                    <span id="accuracy-rate">0%</span>
+                                </div>
+                                <div class="performance-item">
+                                    <span>Preguntas por Minuto:</span>
+                                    <span id="questions-per-minute">0</span>
+                                </div>
+                                <div class="performance-item">
+                                    <span>Puntuación Final:</span>
+                                    <span id="final-grade">0/100</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="answers-review">
+                        <h3><i class="fas fa-list-check"></i> Detalle de Respuestas</h3>
+                        <div id="answers-list" class="answers-list"></div>
+                    </div>
+                    
+                    <div class="summary-actions">
+                        <button id="restart-btn" class="btn-primary">
+                            <i class="fas fa-redo"></i> Nuevo Quiz
+                        </button>
+                        <button id="review-btn" class="btn-secondary">
+                            <i class="fas fa-book"></i> Repasar Errores
+                        </button>
+                        <button id="download-btn" class="btn-secondary">
+                            <i class="fas fa-download"></i> Descargar Resultados
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Sistema de Estudio de Anatomía Interactiva &copy; 2025</p>
+            <div class="footer-links">
+                <a href="#" id="about-link"><i class="fas fa-info-circle"></i> Acerca de</a>
+                <a href="#" id="help-link"><i class="fas fa-question-circle"></i> Ayuda</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal de Información -->
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h3><i class="fas fa-info-circle"></i> Acerca de</h3>
+            <p>Esta aplicación está diseñada para ayudar en el estudio de anatomía humana mediante preguntas interactivas sobre imágenes médicas.</p>
+            <p>Características:</p>
+            <ul>
+                <li>Imágenes anatómicas con partes etiquetadas</li>
+                <li>Sistema de preguntas aleatorias</li>
+                <li>Feedback inmediato</li>
+                <li>Seguimiento de progreso</li>
+                <li>Posibilidad de repaso</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
