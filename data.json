@@ -1538,5 +1538,544 @@
         "height": 50
       }
     ]
+  },
+  {
+    "imagen": "images/sin_nombres/13.png",
+    "sistema": "nervioso",
+    "region": "cabeza",
+    "partes": [
+      {
+        "nombre": "Surco frontal superior",
+        "x": 776,
+        "y": 569,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Surco frontal inferior",
+        "x": 908,
+        "y": 621,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "surco precentral",
+        "x": 979,
+        "y": 855,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "surco central",
+        "x": 1077,
+        "y": 908,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "surco postcentral",
+        "x": 1058,
+        "y": 1065,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "surco intraparietal",
+        "x": 948,
+        "y": 1339,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "surco del cingulo",
+        "x": 740,
+        "y": 1348,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "surco parietoocipital",
+        "x": 737,
+        "y": 1424,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Polo occipital",
+        "x": 657,
+        "y": 1548,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Lobulillo parietal inferior",
+        "x": 467,
+        "y": 1389,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Lobulillo parietal superior",
+        "x": 544,
+        "y": 1260,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Circunvolucion",
+        "x": 371,
+        "y": 1275,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Circunvolucion supramarginal",
+        "x": 320,
+        "y": 1160,
+        "width": 100,
+        "height": 100
+      },
+      {
+        "nombre": "Circunvolucion postcentral",
+        "x": 330,
+        "y": 992,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Circunvolucion precentral",
+        "x": 339,
+        "y": 840,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Circunvolucion frontal media",
+        "x": 464,
+        "y": 720,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Circunvolucion frontal superior",
+        "x": 645,
+        "y": 699,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Polo frontal",
+        "x": 627,
+        "y": 489,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cisura longitudinal del cerebro",
+        "x": 694,
+        "y": 506,
+        "width": 50,
+        "height": 50
+      }
+    ]
+  },
+  {
+    "imagen": "images/sin_nombres/15.png",
+    "sistema": "nervioso",
+    "region": "cabeza",
+    "partes": [
+      {
+        "nombre": "Surco olfatorio",
+        "x": 747,
+        "y": 468,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "quiasma optico",
+        "x": 720,
+        "y": 779,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Surco orbitarios",
+        "x": 993,
+        "y": 590,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Infundibulo",
+        "x": 776,
+        "y": 569,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "fosa lateral del cerebro",
+        "x": 1056,
+        "y": 668,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Trigono olfatorio",
+        "x": 790,
+        "y": 790,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Surco temporal inferior",
+        "x": 1051,
+        "y": 779,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cuerpo mamilar",
+        "x": 733,
+        "y": 881,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Pedunculo cerebral porcion anterior",
+        "x": 807,
+        "y": 939,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "substancia negra",
+        "x": 784,
+        "y": 967,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "surco del hipocampo",
+        "x": 827,
+        "y": 1004,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "tegmento mesencefalico",
+        "x": 756,
+        "y": 985,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "acueducto del mesencefalo",
+        "x": 716,
+        "y": 1024,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "esplenio del cuerpo calloso",
+        "x": 733,
+        "y": 1081,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Surco calcarino",
+        "x": 742,
+        "y": 1201,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Polo occipital",
+        "x": 611,
+        "y": 1503,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "fosa interpenduncular",
+        "x": 693,
+        "y": 901,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Circunvolucion del hipocampo",
+        "x": 617,
+        "y": 864,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "circunvoluciones orbiutarias",
+        "x": 517,
+        "y": 582,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Circunvolucion recta",
+        "x": 687,
+        "y": 528,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "polo central",
+        "x": 650,
+        "y": 371,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cisura longitudinal del cerebro",
+        "x": 716,
+        "y": 396,
+        "width": 50,
+        "height": 50
+      }
+    ]
+  },
+  {
+    "imagen": "images/sin_nombres/17.png",
+    "sistema": "esqueletico",
+    "region": "cuello",
+    "partes": [
+      {
+        "nombre": "Cartilago epiglotico",
+        "x": 546,
+        "y": 300,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "asta mayor del hueso hioides",
+        "x": 772,
+        "y": 292,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "asta menor del hueso hioides",
+        "x": 680,
+        "y": 326,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento tirohiodeo lateral",
+        "x": 768,
+        "y": 386,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "asta superior del cartilago tiroides",
+        "x": 784,
+        "y": 532,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "cuerpo adiposo preepiglotico",
+        "x": 654,
+        "y": 586,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "asta inferior del cartilago tiroides",
+        "x": 720,
+        "y": 878,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "capsula articular cricotiroidea",
+        "x": 698,
+        "y": 944,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "cartilagos traqueales",
+        "x": 632,
+        "y": 1142,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento cricotraqueal",
+        "x": 552,
+        "y": 1052,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "arco del cartilago cricoides",
+        "x": 548,
+        "y": 990,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento criocotiroideo medio",
+        "x": 528,
+        "y": 906,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "escotadura tiroidea superior",
+        "x": 544,
+        "y": 742,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "lamina derecha del cartilago tiroides",
+        "x": 408,
+        "y": 710,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento tiroideo medio",
+        "x": 542,
+        "y": 590,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "membrana tirohidea",
+        "x": 398,
+        "y": 458,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "cuerpo del hueso tiroides",
+        "x": 1184,
+        "y": 416,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "membrana tirohidea",
+        "x": 1556,
+        "y": 442,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "orificio de la arteria laringea superior y ramo interno del nervio laringeo superior",
+        "x": 747,
+        "y": 468,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento criocofaringeo",
+        "x": 1614,
+        "y": 712,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "apofisis vocal del cartilago artenoides",
+        "x": 1494,
+        "y": 812,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Lamina del cartilago cricoides",
+        "x": 1570,
+        "y": 948,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "cara articular tiroidea",
+        "x": 1522,
+        "y": 986,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "cartilagos traqueales",
+        "x": 1362,
+        "y": 1092,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "arco cricoideo",
+        "x": 1342,
+        "y": 988,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento cricotiroideo medio",
+        "x": 1314,
+        "y": 942,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "cono elastico",
+        "x": 1342,
+        "y": 856,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento vocal",
+        "x": 1370,
+        "y": 802,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "cartilago tiroides",
+        "x": 1242,
+        "y": 796,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento tiroepliglotico",
+        "x": 1250,
+        "y": 698,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "peciolo de la epiglotis",
+        "x": 1294,
+        "y": 652,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento tirohideo medio",
+        "x": 1204,
+        "y": 580,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cartilago epiglotico",
+        "x": 1364,
+        "y": 484,
+        "width": 50,
+        "height": 50
+      }
+    ]
   }
 ]
