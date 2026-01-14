@@ -1174,7 +1174,7 @@
     "region": "cabeza",
     "partes": [
       {
-        "nombre": "HUesos nasales",
+        "nombre": "Huesos nasales",
         "x": 693,
         "y": 269,
         "width": 50,
@@ -1286,7 +1286,7 @@
     "region": "cabeza",
     "partes": [
       {
-        "nombre": "nervio alfativo",
+        "nombre": "nervio olfativo",
         "x": 635,
         "y": 758,
         "width": 50,
@@ -1755,7 +1755,7 @@
         "height": 50
       },
       {
-        "nombre": "polo central",
+        "nombre": "Polo frontal",
         "x": 650,
         "y": 371,
         "width": 50,
