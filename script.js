@@ -404,7 +404,7 @@ class AnatomyQuiz {
         setTimeout(() => {
             this.elements.submitBtn.disabled = false;
             this.nextQuestion();
-        }, 1500);
+        }, 4000);
     }
     
     showSuggestions(correctAnswer) {
