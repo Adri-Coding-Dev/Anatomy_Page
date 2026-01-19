@@ -2566,5 +2566,278 @@
         "height": 50
       }
     ]
+  },
+  {
+    "imagen": "images/sin_nombres/27.png",
+    "sistema": "esqueletico",
+    "region": "columna",
+    "partes": [
+      {
+        "nombre": "sustancia blanca",
+        "x": 750,
+        "y": 320,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Zona de entrada de la raiz posterior",
+        "x": 806,
+        "y": 273,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cuerno posterior de la sustancia gris",
+        "x": 796,
+        "y": 327,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cuerno anterior de la sustancia gris",
+        "x": 918,
+        "y": 423,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Filetes radiculares anteriores",
+        "x": 979,
+        "y": 1363,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Superficie de la medula espinal cubierta por la piamadre transparente",
+        "x": 877,
+        "y": 1549,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Raiz anterior",
+        "x": 476,
+        "y": 1444,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Raiz posterior",
+        "x": 464,
+        "y": 1414,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Ramo anterior",
+        "x": 235,
+        "y": 1658,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Ramo posterior",
+        "x": 190,
+        "y": 1563,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "aracnoides",
+        "x": 376,
+        "y": 1467,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ligamento dentado",
+        "x": 469,
+        "y": 1319,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Duramadre",
+        "x": 325,
+        "y": 1057,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "vaina dural",
+        "x": 406,
+        "y": 718,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Piamadre",
+        "x": 567,
+        "y": 305,
+        "width": 50,
+        "height": 50
+      }
+    ]
+  },
+  {
+    "imagen": "images/sin_nombres/29.png",
+    "sistema": "esqueletico",
+    "region": "columna",
+    "partes": [
+      {
+        "nombre": "Fosa romboidea",
+        "x": 731,
+        "y": 172,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Arco anterior del atlas",
+        "x": 770,
+        "y": 288,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ganglios espinales",
+        "x": 779,
+        "y": 403,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Arco de las VII vertebra cervical",
+        "x": 765,
+        "y": 550,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Arco de la I vertebra toracica",
+        "x": 787,
+        "y": 606,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "III costilla",
+        "x": 781,
+        "y": 679,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "VI Costilla",
+        "x": 781,
+        "y": 729,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Duramadre espinal",
+        "x": 737,
+        "y": 916,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Arco de la XII vertebra toracica",
+        "x": 754,
+        "y": 1175,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Arco de la I vertebra lumbar",
+        "x": 758,
+        "y": 1220,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ganglio espinal",
+        "x": 769,
+        "y": 1378,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Arco de la V vertebra lumbar",
+        "x": 762,
+        "y": 1473,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Hueso sacro",
+        "x": 757,
+        "y": 1679,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Filum terminal exterior",
+        "x": 706,
+        "y": 1758,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Hueso cocageo",
+        "x": 708,
+        "y": 1914,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Nervios cocageos",
+        "x": 693,
+        "y": 1776,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Nervio sacro I",
+        "x": 663,
+        "y": 1564,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Nervio lumbar I",
+        "x": 657,
+        "y": 1258,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Nervio toracico I",
+        "x": 655,
+        "y": 620,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Nervio Cervical I",
+        "x": 688,
+        "y": 262,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Nervio hipogloso",
+        "x": 661,
+        "y": 221,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "nervio vago",
+        "x": 662,
+        "y": 200,
+        "width": 50,
+        "height": 50
+      }
+    ]
   }
 ]
