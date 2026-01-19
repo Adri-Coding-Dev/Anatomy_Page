@@ -2300,5 +2300,271 @@
         "height": 50
       }
     ]
+  },
+  {
+    "imagen": "images/sin_nombres/23.png",
+    "sistema": "esqueletico",
+    "region": "columna",
+    "partes": [
+      {
+        "nombre": "Surco medio Dorsal",
+        "x": 750,
+        "y": 97,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cordon Dorsal",
+        "x": 834,
+        "y": 162,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cordon Lateral",
+        "x": 982,
+        "y": 379,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Cordon ventral",
+        "x": 844,
+        "y": 608,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Conducto Ependinario",
+        "x": 728,
+        "y": 382,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Surco Medio Ventral",
+        "x": 722,
+        "y": 631,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Asta Ventral",
+        "x": 473,
+        "y": 470,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Asta Lateral",
+        "x": 570,
+        "y": 349,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Asta Dorsal",
+        "x": 570,
+        "y": 245,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Surco Posterior",
+        "x": 705,
+        "y": 1039,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Ramificaciones Posteriores",
+        "x": 864,
+        "y": 1208,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Ganglio Raquidio",
+        "x": 968,
+        "y": 1419,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Ramificaciones Anteriores",
+        "x": 690,
+        "y": 1430,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "duramadre",
+        "x": 457,
+        "y": 1615,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "aracnoiodes",
+        "x": 411,
+        "y": 1490,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "pimadre",
+        "x": 422,
+        "y": 1438,
+        "width": 50,
+        "height": 50
+      }
+    ]
+  },
+  {
+    "imagen": "images/sin_nombres/25.png",
+    "sistema": "esqueletico",
+    "region": "columna",
+    "partes": [
+      {
+        "nombre": "Filum Terminal",
+        "x": 702,
+        "y": 1070,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "nervio espinal raiz anterior",
+        "x": 798,
+        "y": 1066,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ganglio espinal",
+        "x": 917,
+        "y": 1060,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "nervio espinal raiz posterior",
+        "x": 800,
+        "y": 1078,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "aracnoiodes Espinal",
+        "x": 783,
+        "y": 1108,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Duramadre espinal",
+        "x": 753,
+        "y": 1134,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Espacio epidural",
+        "x": 744,
+        "y": 1153,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Periostio",
+        "x": 719,
+        "y": 1204,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Ligamento Amarillo",
+        "x": 684,
+        "y": 1191,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Espacio subaracnoideo",
+        "x": 684,
+        "y": 1123,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "piamadre espinal",
+        "x": 661,
+        "y": 1109,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ramo medial",
+        "x": 465,
+        "y": 1301,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ramo lateral",
+        "x": 444,
+        "y": 1283,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "nervio espinal ramo posterior",
+        "x": 433,
+        "y": 1218,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "nervio espinal raiz anterior",
+        "x": 408,
+        "y": 1064,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Nervio espinal ramo anterior",
+        "x": 456,
+        "y": 993,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "ganglio del tronco simpatico",
+        "x": 452,
+        "y": 917,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Ramo meningeo del nervio espinal",
+        "x": 589,
+        "y": 1038,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "plexo venoso vertebral interior anterior",
+        "x": 629,
+        "y": 1041,
+        "width": 50,
+        "height": 50
+      },
+      {
+        "nombre": "Ligamento longitudinal posterior",
+        "x": 700,
+        "y": 1018,
+        "width": 50,
+        "height": 50
+      }
+    ]
   }
 ]
